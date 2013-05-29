@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<!-- 
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView 
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="fitXY"
+    android:src="@drawable/title"
+        />
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+	    <ImageView
+	        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:scaleType="fitXY"
+	    android:src="@drawable/mobile"    
+	    ></ImageView>
+	    <ImageView
+	        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:scaleType="fitXY"
+	    android:src="@drawable/tv"        
+	    ></ImageView>
+	    <ImageView
+	        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:scaleType="fitXY"
+	    android:src="@drawable/shoe"        
+	    ></ImageView>
+	    <ImageView
+	        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:scaleType="fitXY"
+	    android:src="@drawable/watch"        
+	    ></ImageView>
+	    <ImageView
+	        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:scaleType="fitXY"
+	    android:src="@drawable/music"        
+	    ></ImageView>
+	    <ImageView
+	        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:scaleType="fitXY"
+	    android:src="@drawable/sports"        
+	    ></ImageView>
+    </LinearLayout>
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/rightside" />
+</LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+ -->
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <ImageView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/category"
+    android:onClick="clpActivity"
+    android:scaleType="fitXY" />
+ </LinearLayout>
+ </ScrollView>

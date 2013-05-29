@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    > 
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/toswipe"  
+    	android:scaleType="fitXY"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/list"  
+        android:scaleType="fitXY"
+        /> 
+    <ImageView
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/clp_lv_header"
+    	android:scaleType="fitXY" 
+        />
+    <ListView 
+       
+        android:id="@+id/clp_lv"        
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"   
+        android:layout_weight="1"     
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+        ></ListView>
+    
+	
+</LinearLayout>
+
+</ScrollView>
+ -->
+ <LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="MOBILES AND TABLETS"
+        android:textStyle="bold"
+        android:textSize="12dp"    
+        android:paddingLeft="7dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        />
+    <ListView 
+       
+        android:id="@+id/clp_lv"        
+        android:background="@color/listview_background"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"   
+        android:layout_weight="1"
+        android:divider="@null"
+        android:scrollbars="none"
+        ></ListView>
+    </LinearLayout>

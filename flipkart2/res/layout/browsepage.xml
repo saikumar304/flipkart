@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    	
+    <TextView 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:hint="MOBILES"
+	    android:textStyle="bold"
+        android:background="@color/textviewbackground"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:paddingLeft="9dp"
+	    android:paddingRight="9dp"
+	    android:background="@drawable/backrepeat"
+	    >
+	    <TextView 
+            android:id="@+id/sort_by_textview"
+            android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_alignParentLeft="true"
+	    	android:layout_centerInParent="true"
+	    	android:text="SORT BY -"
+	    	android:textStyle="bold"
+            />   
+	    <Spinner
+		    android:id="@+id/sortbyspinner"
+		    android:layout_toRightOf="@id/sort_by_textview"
+		    android:layout_width="193dp"
+		    android:layout_height="wrap_content"
+		    android:entries="@array/sortby_spinner" />
+	    <ImageView 
+            android:id="@+id/viewchanger"
+            android:layout_width="25dp"
+		    android:layout_height="25dp"		    
+	    	android:layout_alignParentRight="true"	    	
+	    	android:layout_centerInParent="true"
+	    	android:scaleType="fitXY"
+	    	android:onClick="toggleBetweenViews"
+	    	android:layout_marginRight="10dp"
+		    android:src="@drawable/viewchanger_gridview"
+            />
+    </RelativeLayout>
+    <ViewFlipper 
+        android:id="@+id/viewflipper_browsepage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/backrepeat2"
+        >         
+	    <GridView             
+            android:id="@+id/gridview_browsepage"
+            android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"         	
+		    android:columnWidth="145dp"
+		    android:numColumns="auto_fit"
+		    android:verticalSpacing="10dp"
+		    android:horizontalSpacing="10dp"
+		    android:stretchMode="columnWidth"
+		    android:gravity="center"  
+		    android:scrollbars="none"
+		    android:padding="10dp"		 
+            ></GridView>  
+            <ListView 
+            android:id="@+id/listview_browsepage"
+            android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:divider="@null"
+			android:scrollbars="none"
+            ></ListView>
+    </ViewFlipper>
+
+</LinearLayout>
