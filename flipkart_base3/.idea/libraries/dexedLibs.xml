@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/sherlock_actionbar_library-2e412b468fd671d945616d91abd78cee.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-a471d42fd4b875acd038e892ebbb9093.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/library_sliding_menu-22c2a25f859a699a163c298f8d3136e6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/nineoldandroids-2.4.0-479f1e3bcad01bd17d9a60c531e54235.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/indicator_view_library-13a7d300f732d66d04d4b5602a145491.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/library-24a559ae0e2153d4a7accf729d434a67.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

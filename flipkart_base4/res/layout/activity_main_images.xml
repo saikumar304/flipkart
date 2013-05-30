@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<LinearLayout 
+	    
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+	    <TextView
+	        android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:text="ACTIONBAR"
+    		android:gravity="center"
+    		
+	        />
+	    </LinearLayout>
+
+        <ViewFlipper
+                
+                android:layout_weight="4"
+            android:id="@+id/ViewFlipper01"
+            android:autoStart="true"
+            android:flipInterval="2000"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+                <ImageView
+                    android:id="@+id/TextView01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"            
+                    android:scaleType="fitXY"
+                    android:src="@drawable/banner"
+                    android:onClick="onClicked"
+                    />     
+                <ImageView
+                    android:id="@+id/TextView02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/category_icon"
+                    android:onClick="onClicked" >
+                </ImageView>  
+                <ImageView
+                    android:id="@+id/TextView03"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/images00"
+                    android:onClick="onClicked" >
+                </ImageView>            
+        </ViewFlipper>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0dp"
+                
+                android:layout_weight="1"
+            >
+                <ImageView 
+                	android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    
+                android:layout_weight="3"
+                    android:src="@drawable/booksmedia"
+                />
+            <ImageView 
+                	android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    
+                android:layout_weight="1"
+                    android:src="@drawable/electronicsgadgets"
+                />
+            <ImageView 
+                	android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    
+                android:layout_weight="3"
+                    android:src="@drawable/lifestylefashion"
+                />
+        </LinearLayout>
+        <Button 
+            
+                	android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/category_button"
+            />
+        <LinearLayout 
+            android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+            >
+            <Button 
+                android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                android:layout_weight="1"
+android:background="@drawable/deals_button"
+                />
+            <Button 
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Button2"
+                    android:background="@drawable/gifts_button"
+                />
+        </LinearLayout>
+</LinearLayout> 
+
+
+
+
+
+
+
+
+
+
