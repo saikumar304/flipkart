@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+			
+			<!--     <ImageView
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:background="@drawable/browse_page_topbar"
+			        />
+				<View android:id="@+id/separator" 
+						 android:background="@color/LightGrey" 
+						 android:layout_width = "fill_parent"
+						 android:layout_gravity="center"
+						 android:layout_height="1dip"
+						 />
+			    <RelativeLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="40dp"
+			        android:background="@drawable/backrepeat"
+			        android:paddingLeft="9dp"
+			        android:paddingRight="9dp" >
+			
+			        <TextView
+			            android:id="@+id/sort_by_textview"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_alignParentLeft="true"
+			            android:layout_centerInParent="true"
+			            android:text="SORT BY -"
+			            android:textStyle="bold" />
+			        
+			
+			        <Spinner
+			            android:id="@+id/sortbyspinner"
+			            android:layout_width="193dp"
+			            android:layout_height="wrap_content"
+			            android:layout_toRightOf="@id/sort_by_textview"
+			            android:entries="@array/sortby_spinner" />
+			
+			        <ImageView
+			            android:id="@+id/viewchanger"
+			            android:layout_width="25dp"
+			            android:layout_height="25dp"
+			            android:layout_alignParentRight="true"
+			            android:layout_centerInParent="true"
+			            android:layout_marginRight="10dp"
+			            android:onClick="toggleBetweenViews"
+			            android:scaleType="fitXY"
+			            android:src="@drawable/viewchanger_listview" />
+			    </RelativeLayout>
+			     -->    
+			    <RelativeLayout 
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:paddingTop="10dp"		
+			        android:background="@drawable/homepagebkgrndrepeat"   		        		             
+			        >
+				    <ViewFlipper
+				        android:id="@+id/viewflipper_browsepage"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"		      		          
+				        android:background="@drawable/homepagebkgrndrepeat" >
+				        <ListView
+				            android:id="@+id/listview_browsepage"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:dividerHeight="8dp"		           
+				            android:scrollbars="none" >	
+				        </ListView>	
+				        <ListView 
+				            android:id="@+id/listview_browsepage_gridview"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:dividerHeight="18dp"		           
+				            android:scrollbars="none"
+				            ></ListView>
+		<!-- 				<GridView
+				            android:id="@+id/gridview_browsepage"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:columnWidth="145dp"
+				            android:gravity="center"
+				            android:horizontalSpacing="10dp"
+				            android:numColumns="auto_fit"
+				            android:padding="10dp"
+				            android:scrollbars="none"
+				            android:stretchMode="columnWidth"
+				            android:verticalSpacing="10dp" >
+				        </GridView>
+		-->
+				        			        
+				        			        
+				    </ViewFlipper>				    
+					    <ImageView 
+					        android:id="@+id/filter_bar"
+					        android:layout_alignParentBottom="true"
+						    android:layout_width="fill_parent"
+					        android:layout_height="wrap_content"
+					        android:src="@drawable/filter_bottom"
+					        android:scaleType="fitXY"
+					    />
+			    </RelativeLayout>
+	</LinearLayout>
