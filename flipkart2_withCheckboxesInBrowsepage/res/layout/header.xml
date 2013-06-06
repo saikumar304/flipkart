@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<android.support.v4.view.ViewPager
+			  android:id="@+id/view_pager2"
+			  android:layout_width="match_parent"
+  			  android:layout_height="125dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:onClick="browsePage"
+        android:src="@drawable/list" />
+    <HorizontalScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="10dp"
+	    android:paddingBottom="10dp"
+	    android:paddingTop="10dp"
+	    android:background="@drawable/homepagebkgrndrepeat"	    
+	    >
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="browsePage"
+	        android:orientation="horizontal" >
+	
+	        <ImageView
+	            android:id="@+id/clpHorizontalImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/clpimg1"
+	            />
+	        <ImageView
+	            android:id="@+id/clpHorizontalImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/clpimg2"
+	            />
+	        <ImageView
+	            android:id="@+id/clpHorizontalImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/clpimg1"
+	            />
+	        <ImageView
+	            android:id="@+id/clpHorizontalImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/clpimg2"
+	            />
+	        <ImageView
+	            android:id="@+id/clpHorizontalImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/clpimg1"
+	            />
+	        <ImageView
+	            android:id="@+id/clpHorizontalImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/clpimg2"
+	            />
+	        <ImageView
+	            android:id="@+id/clpHorizontalImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/clpimg1"
+	            />
+	        <ImageView
+	            android:id="@+id/clpHorizontalImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/clpimg2"
+	            />
+	        <ImageView
+	            android:id="@+id/clpHorizontalImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/clpimg1"
+	            />
+	        <ImageView
+	            android:id="@+id/clpHorizontalImage"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/clpimg2"
+	            />	        
+	     </LinearLayout>
+    </HorizontalScrollView>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp"
+	    android:background="@drawable/homepagebkgrndrepeat"
+	    >
+	    <ImageView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/clp_recommended" />
+    </LinearLayout>
+    <View 
+						 android:background="@color/LightGrey" 
+						 android:layout_width = "300dp"
+						 android:layout_gravity="center"
+						 android:layout_height="1dip"
+						 />
+
+</LinearLayout>

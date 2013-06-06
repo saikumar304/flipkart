@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+			
+			    <RelativeLayout 
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:background="@drawable/homepagebkgrndrepeat"   		        		             
+			        >
+				    <ViewFlipper
+				        android:id="@+id/viewflipper_browsepage"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"		      		          
+				        android:background="@drawable/homepagebkgrndrepeat" >
+				        <ListView
+				            android:id="@+id/listview_browsepage"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"  
+				            android:scrollbars="none" >	
+				        </ListView>	
+				        <ListView 
+				            android:id="@+id/listview_browsepage_gridview"
+				            android:layout_width="fill_parent"
+				            android:layout_height="fill_parent"
+				            android:dividerHeight="18dp"		           
+				            android:scrollbars="none"
+				            ></ListView>
+				        			        
+				        			        
+				    </ViewFlipper>    
+					    <ImageView 
+					        android:id="@+id/filter_bar"
+					        android:layout_alignParentBottom="true"
+						    android:layout_width="fill_parent"
+					        android:layout_height="wrap_content"
+					        android:src="@drawable/filter_bottom"
+					        android:scaleType="fitXY"
+					        android:onClick="abc"
+					        
+					    />
+					    
+			    </RelativeLayout>
+	</LinearLayout>
