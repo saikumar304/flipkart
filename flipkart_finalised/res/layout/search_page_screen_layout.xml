@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.simonvt.menudrawer.LeftDrawer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/productPageDrawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:mdMenuSize="155dp" >
+	<ScrollView 
+	    android:layout_height="match_parent" 
+				android:layout_width="155dp"
+				android:background="#737D82"
+	    >	
+			<ImageView 
+			    android:layout_height="match_parent" 
+				android:layout_width="fill_parent"
+			    android:src="@drawable/tray_out"
+			    android:onClick="goToBrowsePage"
+    			android:scaleType="fitXY"
+			    />
+	</ScrollView>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_view_bg" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/search_page_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" >
+        </android.support.v4.view.ViewPager>
+
+        <!-- slider button -->
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="#737D82"
+            android:src="@drawable/left_pullout" />
+
+    </RelativeLayout>
+
+</net.simonvt.menudrawer.LeftDrawer>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout 
+            android:id="@+id/toplayout"
+				android:layout_height="wrap_content" 
+				android:background="@color/white"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent">
+	
+		<Spinner 
+		    android:id="@+id/Spinner01"
+		    android:layout_height="wrap_content" 
+		    android:layout_width="100dp"
+		    android:entries="@array/all"
+		    />
+			<AutoCompleteTextView 
+			    android:id="@+id/autocomplete_country"
+			    android:layout_width="170dp"
+			    android:layout_height="wrap_content" />
+		<Button 
+		    android:id="@+id/Button01"
+		    android:background="@drawable/search_icon_search_page"
+		    android:layout_width="30dp" 
+		    android:layout_height="30dp">
+		</Button>
+	
+	</LinearLayout>
+</LinearLayout>
