@@ -1,4 +1,4 @@
-flipkart
+Thrive in
 ========
 
-flipkart app demo
+Thrive in app demo
